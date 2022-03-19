@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+       |-----handy-ruler------------------------------------------------------|
+lcdproc: lcdproc (client/server suite for interacting with various LCD devices)
+lcdproc:
+lcdproc: The server daemon works with different display sizes and serial
+lcdproc: interfaces.
+lcdproc:
+lcdproc: Various clients are included as well, to display things like CPU load,
+lcdproc: system load, memory usage, uptime, date and time, etc.
+lcdproc:
+lcdproc: Clients control the server using a simple TCP connection interface,
+lcdproc: enabling writing simple clients that can remotely control a particular
+lcdproc: LCD.

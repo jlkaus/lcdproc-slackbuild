@@ -1,0 +1,11 @@
+lcdproc is client/server suite for interacting with various LCD devices.
+
+The server daemon works with different display sizes and serial
+interfaces.
+
+Various clients are included as well, to display things like CPU load,
+system load, memory usage, uptime, date and time, etc.
+
+Clients control the server using a simple TCP connection interface,
+enabling writing simple clients that can remotely control a particular
+LCD.
